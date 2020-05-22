@@ -39,6 +39,8 @@ var rollTheDice = function() {
     for (i = 0; i < diceCount; i++) {
         faceValue = Math.floor(Math.random() * 6);
         output += "&#x268" + faceValue + "; ";
+        
+        
     }
     
 }
@@ -58,8 +60,6 @@ var rollTheDice = function() {
   
 
   document.querySelector('input[type=button]').addEventListener('click', function(){rollTheDice();});
-
-
 
 
         //  ASSESSMENT FINISHED UP HERE //
