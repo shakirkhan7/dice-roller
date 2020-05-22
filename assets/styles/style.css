@@ -1,0 +1,12 @@
+
+html {
+    font-family: system-ui, sans-serif;
+  }
+  body {
+    background: linear-gradient(#545454, #454545, #676767);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    max-width: 400px;
+  }
+ #dice {font-size: 22rem;}
